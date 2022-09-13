@@ -7,8 +7,6 @@
       <mapping pattern="insertRealDataFromListTron" type="AUTO_DETECTED" />
       <mapping pattern="extract_db.py" type="AUTO_DETECTED" />
       <mapping pattern="test_seven_pagination.py" type="AUTO_DETECTED" />
-      <mapping pattern=".env.*" type="Env File" />
-      <mapping ext="env" type="Env File" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern="guestbook" type="PLAIN_TEXT" />
       <mapping pattern="post_detail.html" type="PLAIN_TEXT" />
@@ -24,7 +22,9 @@
       <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".env.*" approved="true" type=".env file" />
       <removed_mapping pattern=".mjmlconfig" approved="true" type="JSON" />
+      <mapping ext="env" type="Env File" />
       <mapping ext="txt" type="requirements-pro.txt" />
+      <mapping pattern=".env.*" type="Env File" />
     </extensionMap>
   </component>
 </application>
